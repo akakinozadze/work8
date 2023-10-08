@@ -198,10 +198,8 @@
     animation-name: box;
     animation-duration: 19s;
     animation-iteration-count: infinite;
-    animation-delay: 2;
-    animation-timing-function: ease-in-out;
-
-
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
 }
 
 @keyframes box {
@@ -216,13 +214,13 @@
     }
 
     50% {
-        left: 500px;
-        top: 500px;
+        left: 1200px;
+        top: 400px;
     }
 
     75% {
         left: 0px;
-        top: 200px;
+        top: 400px;
     }
 
     100% {
